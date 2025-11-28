@@ -21,3 +21,10 @@ const printNewName:boolean = false;
 
 console.log(`New Name is ${printNewName ? "Don" : "Nice1"}`)
 
+
+
+
+
+let tax:number | string  = 10; 
+console.log(tax)
+
