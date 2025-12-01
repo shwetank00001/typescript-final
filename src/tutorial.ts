@@ -23,8 +23,21 @@ console.log(`New Name is ${printNewName ? "Don" : "Nice1"}`)
 
 
 
-
-
+//UNION TYPES
 let tax:number | string  = 10; 
+tax = "400#2"
 console.log(tax)
 
+
+
+// LITERAL TYPES
+let reqStatus: 'pending' | 'success' | 'error' = 'pending'
+reqStatus = 'error'
+
+
+//any type
+let notsure:any = 10;
+notsure = function(){
+    console.log("Hello");
+}
+notsure()
