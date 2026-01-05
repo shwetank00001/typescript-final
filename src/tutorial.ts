@@ -31,8 +31,11 @@ console.log(tax)
 
 
 // LITERAL TYPES
-let reqStatus: 'pending' | 'success' | 'error' = 'pending'
-reqStatus = 'error'
+let reqStatus: 'pending' | 'success' | 'error' = 'pending';
+reqStatus = "pending";
+// reqStatus ="random"
+console.log(reqStatus)
+
 
 
 //any type
@@ -41,3 +44,10 @@ notsure = function(){
     console.log("Hello");
 }
 notsure()
+
+
+//build error
+// let newData = "Fetching from API";
+// console.log(newData);
+// newData = 50;
+// console.log(newData)
